@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding-top: 20px;
+            padding-bottom: 25px;
+            background-color: black;
+            border-radius: 8px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        #i{
+            width: 15%;
+            height: 25px;
+            padding-left: 50px;
+            padding-top: 15px;
+            
+        }
+        .h3{
+            
+            width: 50%;
+            height: 50px;
+            padding-right: 300px;
+            font-size: 25px;
+            
+            
+         }
+         .head{
+            width: 50%;
+            
+            display: flex;
+            
+         }
+         .r-nav{
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            
+            
+         }
+         button{
+            height: 50px;
+            width: 45%;
+            background-color: #000000;
+            color: white;
+            border-color: white;
+            border-radius: 10px;
+            font-size: 23px;
+            justify-content: space-between;
+            
+        }
+        #p{
+            background-color: #4C5FD5;
+            color: #fff;
+            
+            
+        }
+        div{
+            width: 30%;
+            height: 50px;
+        }
+        nav{
+            text-align: center;
+            font-size: 50px;
+            width: 100%;
+            height: 400px;
+            padding-top: 20px;
+            background-color: #dadbf1;
+
+        }
+        #search{
+            background-color: #fff;
+            border-color: #000000;
+            width:50%;
+            height: 75px;
+            border-radius: 5px;
+            
+        }
+        #a{
+            width: 100%;
+        }
+        .s1{
+            /* border: 2px solid red; */
+            width: 50%;
+            height: 150px;
+            padding: 3%;
+        }
+        .set{
+            width: 100%;
+            /* height: 200px; */
+            padding-left: 5px;
+            font-family: sans-serif;
+            h3{
+            font-weight: 700;
+            line-height: 28px;
+            }
+        }
+        .set1{
+            width: 100%;
+            height: 250px;
+            padding: 5%;
+            /* float: left; */
+            /* border: 2px solid blue; */
+            
+        }
+        .b{
+            display: flex;
+            width: 100%;
+            height: 250px;
+
+        }
+        .b1{
+            /* border: 2px solid green; */
+            height: 230px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .b2{
+            /* border: 2px solid green; */
+            height: 230px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .b1,.b2{
+            width: 100%;
+            /* height: 200px; */
+            display: flex;
+        }
+        .c{
+            display: flex;
+            width: 100%;
+            height: 250px;
+        }
+        .c1{
+            /* border: 2px solid green; */
+            height: 230px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .c2{
+            /* border: 2px solid green; */
+            height: 230px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .c1,.c2{
+            width: 50%;
+            /* height: 100px; */
+            display: flex;
+        }
+        .d{
+            display: flex;
+            width: 100%;
+            height: 250px;
+        }
+        .d1{
+            /* border: 2px solid green; */
+            height: 230px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .d2{
+            /* border: 2px solid green; */
+            height: 250px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .d1,.d2{
+            width: 50%;
+            /* height: 100px; */
+            display: flex;
+        }
+        section{
+            background-color: #000000;
+            color:white;
+            display: flex;
+            border: 2px white;
+            width: 100%;
+            height: 400px;
+        }
+        .t1,.t2,.t3,.t4,.t5{
+            width: 50%;
+            height: 200px;
+            font-size: 23px;
+            padding-top: 20px;
+        }
+        #n{
+            font-size: 18px;
+        }
+        #l{
+            font-size: 20px;
+        }
+        .t1{
+            padding-left: 100px;
+            /* border: 2px solid;color:white; */
+        }
+        .t2{
+            padding-right: 20px;
+            /* border:2px solid;color: #fff; */
+        }
+        .t3{
+            padding-right: 50px;
+            /* border:2px solid;color: #fff; */
+        }
+        .t4{
+            padding-right: 180px;
+            /* border:2px solid;color: #fff; */
+        }
+        .t5{
+            padding-right: 150px;
+            padding-top: 200px ;
+            /* border:2px solid;color: #fff; */
+            
+        }
+        @media screen(max-width:768px) {
+            .container{
+                padding-right: calc(15px * 2);
+                padding-left: calc(15px * 2);
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="head">
+            <div id="i">
+                <img src="c:\Users\INDHU\Downloads\logo.png"alt="" >
+            </div>
+            <h3 class="h3">
+                Abstract | Help center
+            </h3>
+        </div>
+       
+        <div class="r-nav">
+            <button>Submit a request</button>
+            <button id="p">sign in</button>
+        </div>
+     </header>
+     <nav>
+        <h1>How can we help?</h1>
+        <div id="a"> 
+            <input type ="search" name="search" id="search" placeholder="Search" >
+        </div>
+     </nav>
+     <article class="set">
+     <div class="b">
+        <div class="b1">
+            <div class="s1">
+                <img src="./img i.png" alt="no image" width="70%" height="70%">
+            </div>
+            <div class="set1"> 
+                <h3>Using Abstract</h3>
+                <p>Abstract lets you manage, version, and document your designs in one place.
+                Learn More →
+                </p>
+            </div>
+        </div>
+     
+        <div class="b2"><div class="s1"><img src="./img i1.png" alt="" width="100%" height="100%"></div>
+        <div class="set1"><h3>Manage your account</h3>
+         <p>Configure your account settings, such as your email, profile details, and password.
+            Learn More →
+         </p>
+        </div>
+        </div>
+     </div>
+     <div class="c">
+        <div class="c1"><div class="s1"><img src="./img i2.png" alt="" width="100%" height="100%"></div>
+        <div class="set1"><h3>
+            Manage organizations, teams, and projects
+         </h3>
+         <p>Use Abstract organizations, teams, and projects to organize your people and your work.
+            Learn More →
+         </p>
+         </div>
+        </div>
+        <div class="c2"><div class="s1"><img src="./img i3.png" alt="" width="100%" height="100%"></div>
+        <div class="set1"><h3>
+            Manage billing        
+         </h3>
+         <p>Change subscriptions and payment details.
+            Learn More →
+         </p>
+        </div>
+        </div>
+     </div>
+     <div class="d">
+        <div class="d1"><div class="s1"><img src="./img i4.png" alt="" width="100%" height="100%"></div>
+        <div class="set1"><h3>Authenticate to Abstract</h3>
+         <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+            Learn More →
+         </p>
+        </div>
+      </div>
+        <div class="d2"><div class="s1"><img src="./img i5.png" alt="" width="100%" height="100%"></div>
+       <div class="set1"> <h3>Abstract support</h3>
+         <p>Get in touch with a human.
+                Learn More →
+         </p>
+       </div>
+     </div>
+    </div>
+    </article>
+    <section>
+        <div class="t1">
+         <h3 class="i">Abstract</h3>
+         <p id="n">Start Trial <br>
+            Pricing <br>
+            Download</p>
+        </div>
+        <div class="t2">
+            <h3 class="i">Resources</h3>
+            <p id="n">Blog <br>
+            Help Center <br>
+            Release Notes <br>
+            Status</p>
+        </div>
+        <div class="t3">
+            <h3 class="i">Community</h3>
+            <p id="n">Twitter <br>
+            LinkedIn <br>
+            Facebook <br>
+            Dribbble <br>
+            Podcast</p>
+        </div>
+        <div class="t4">
+            <h3 class="i">Company</h3>
+            <p id="n">About Us <br>
+            Careers <br>
+            Legal <br><br><br>
+            Contact Us <br>
+            info@abstract.com</p>
+        </div>
+        <div class="t5">
+        <div id="m"><img src="c:\Users\INDHU\Downloads\logo.png" alt=""></div>
+        <p id="l">© Copyright 2023 <br>
+           Abstract Studio Design,Inc. <br>
+            All rights reserved</p>
+            </div>
+            
+            
+    </section>
+     
+     
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        div{
+            width: 4%;
+            height: 45px;
+            background-color: aqua;
+            border:2px solid black;
+            animation-name: li;
+            animation-duration: 8s;
+        }
+        @keyframes li {
+            from{
+                transform:translate();
+            }
+            0% {border-radius:0px;}
+            25%{
+                transform: translate(1250px,0px);
+                background-color: purple;
+                border-radius: 100%;
+            }
+            50%{
+                transform: translate(1250px,580px);
+                background-color: rgb(206, 99, 12);
+                border-radius: 0;
+            }
+            75%{
+                transform: translate(0px,580px);
+                background-color: rgb(31, 194, 71);
+                border-radius: 100%;
+            }
+           to{
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
