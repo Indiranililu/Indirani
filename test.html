@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Details Form</title>
+</head>
+<body>
+
+<h2>Employee Details Form</h2>
+
+<form action="/submit_employee_details" method="post">
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" name="fullname"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="department">Department:</label><br>
+  <select id="department" name="department">
+    <option value="hr">HR</option>
+    <option value="finance">Finance</option>
+    <option value="marketing">Marketing</option>
+    <option value="it">IT</option>
+    <option value="operations">Operations</option>
+  </select><br><br>
+
+  <label for="position">Position:</label><br>
+  <input type="text" id="position" name="position"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
